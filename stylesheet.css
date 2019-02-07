@@ -1,0 +1,126 @@
+/* The Waldorf School of Garden City
+	     File Owner: Jake Vu
+	     Last Edit: December 7, 2018 */
+
+@font-face { font-family: Bangers; src: url('fonts/Bangers.ttf'); }
+@font-face { font-family: Neucha; src: url('fonts/Neucha.ttf'); }
+@font-face { font-family: Kumar; src: url('fonts/Kumar.ttf'); }
+
+body {
+	color: #008b45;
+	background-color: #87cefa;
+	font-family: Courier;
+}
+
+.main {
+	float: right;
+	width: 80%;
+	border:10px dashed #ffb6c1;
+	padding: 20px 20px 20px 20px;
+}
+	
+.nav {
+	float: left;
+	width: 20%;
+	position: fixed;
+	margin-top:50px;
+}
+	
+.nav li {
+	list-style-type: none;
+	font-size: 20px;
+	display:in-line;
+}
+	
+.nav li a:hover {
+	background-color: #ffb6c1;
+	text-decoration: none;
+}
+	
+.nav li a:link {
+	text-decoration: none;
+	border: 1px dashed;
+}
+	
+.nav li a:active{
+	background-color: white;
+	text-decoration: none;
+}
+	
+a:visited {
+	color: #008b45;
+	text-decoration: none;
+}
+	
+.active {
+	display: inline-block;
+	background-color: yellow !important;
+	color: black;
+	border: none !important;
+}
+	
+h1,h2 {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+h1 {
+	font-family: Bangers;
+	font-size: 70;
+}
+	
+h2 {
+	font-family: Kumar;
+	font-size:50;
+}
+	
+h3, h4, h5 {
+	font-family: Neucha;
+	color: #cd853f;
+}
+
+			
+h3 {
+	font-size: 40;
+}
+
+
+h4 {
+	font-size: 35;
+} 
+
+
+h5 {
+	font-size: 30;
+} 
+
+p {
+	font-family: Neucha;
+	font-size: 20;
+	color: black;
+}	
+
+.img {
+	float: left;
+	padding: 0px 20px 0px 0px;
+}
+
+.clearfix {
+	overflow: auto;
+}
+				
+.start{
+	text-align: center;
+	display: block;	
+}
+
+.sub {
+	overflow: auto;
+	margin-left: 50px;
+}
+
+.sub2 {
+	overflow: auto;
+	margin-left: 100px;
+}
