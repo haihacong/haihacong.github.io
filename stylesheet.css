@@ -7,15 +7,15 @@
 @font-face { font-family: Kumar; src: url('fonts/Kumar.ttf'); }
 
 body {
-	color: #008b45;
-	background-color: #87cefa;
+	color: black;
+	background-color: #E5B48F;
 	font-family: Courier;
 }
 
 .main {
 	float: right;
 	width: 80%;
-	border:10px dashed #ffb6c1;
+	border:10px dashed #2f3493;
 	padding: 20px 20px 20px 20px;
 }
 	
@@ -33,22 +33,22 @@ body {
 }
 	
 .nav li a:hover {
-	background-color: #ffb6c1;
+	background-color: #9821a5;
 	text-decoration: none;
 }
 	
 .nav li a:link {
 	text-decoration: none;
-	border: 1px dashed;
+	border: 1px dashed #59ebfc;
 }
 	
 .nav li a:active{
-	background-color: white;
+	background-color: #59ebfc;
 	text-decoration: none;
 }
 	
 a:visited {
-	color: #008b45;
+	color: #d124a0;
 	text-decoration: none;
 }
 	
@@ -98,7 +98,7 @@ h5 {
 p {
 	font-family: Neucha;
 	font-size: 20;
-	color: black;
+	color: white;
 }	
 
 .img {
