@@ -69,7 +69,7 @@ h1 {
 	font-family: Bangers;
 	font-size: 70;
 
-h1.active {
+h1 a:link {
 	color:black;
 }
 	
