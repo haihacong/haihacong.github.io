@@ -68,6 +68,11 @@ h1,h2 {
 h1 {
 	font-family: Bangers;
 	font-size: 70;
+
+h1.active {
+	color:black;
+}
+	
 }
 	
 h2 {
