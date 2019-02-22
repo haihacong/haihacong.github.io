@@ -1,14 +1,14 @@
 /* The Waldorf School of Garden City
 	     File Owner: Jake Vu
-	     Last Edit: December 7, 2018 */
+	     Last Edit: February 22, 2019 */
 
 @font-face { font-family: Bangers; src: url('fonts/Bangers.ttf'); }
 @font-face { font-family: Neucha; src: url('fonts/Neucha.ttf'); }
 @font-face { font-family: Kumar; src: url('fonts/Kumar.ttf'); }
 
 body {
-	color: black;
-	background-color: #E5B48F;
+	color: white;
+	background-color: black;
 	font-family: Courier;
 }
 
@@ -28,35 +28,59 @@ body {
 	
 .nav li {
 	list-style-type: none;
-	font-size: 20px;
+	font-size: 25px;
 	display:in-line;
-}
-	
-.nav li a:hover {
-	background-color: #9821a5;
-	text-decoration: none;
+	padding: 5px;
 }
 	
 .nav li a:link {
 	text-decoration: none;
-	border: 1px dashed #59ebfc;
-}
-	
-.nav li a:active{
-	background-color: #59ebfc;
-	text-decoration: none;
+	border: 3px dashed;
+	border-color: #e5b48f; 
+	padding: 2px;
+	color: white;
 }
 	
 a:visited {
-	color: #d124a0;
+	color: white;
 	text-decoration: none;
+	border-color: #E5B48F;
+}
+
+.nav li a:hover {
+	text-decoration: none;
+	color: #59ebfc;
+	border-color: #E5B48F;
+	background-color: #2f3493;
+}
+	
+.nav li a active {
+	text-decoration: none;
+	border: 2px dashed #E5B48F;
+	padding: 2px;
+	color: #59ebfc;
 }
 	
 .active {
 	display: inline-block;
-	background-color: yellow !important;
-	color: black;
-	border: none !important;
+	background-color: #9821a5 !important;
+	color: #59ebfc;
+	border:none !important;
+}
+
+.active2 {
+	display: inline-block;
+	color: #E5B48F !important;
+	background-image: url('images/header.png');
+	background-size: cover;
+	background-position: center;
+	overflow: visible;
+	margin: 10px;
+}
+
+.main h1 a:link{
+	text-decoration:none;
+	color: red;
 }
 	
 h1,h2 {
@@ -68,28 +92,26 @@ h1,h2 {
 h1 {
 	font-family: Bangers;
 	font-size: 70;
-
-.main h1 a:link {
-	color:black;
-}
 	
 }
 	
 h2 {
 	font-family: Kumar;
 	font-size:50;
+	letter-spacing: 1px;
+	color:#E5B48F;
 }
-	
-h3, h4, h5 {
-	font-family: Neucha;
-	color: #cd853f;
-}
-
 			
 h3 {
 	font-size: 40;
+	color: #9821A5;
+	font-family: Neucha;
 }
 
+h4, h5 {
+	font-family: Neucha;
+	color: #D124A0;
+}
 
 h4 {
 	font-size: 35;
@@ -128,4 +150,24 @@ p {
 .sub2 {
 	overflow: auto;
 	margin-left: 100px;
+}
+
+table {	
+	color: white;
+	border: solid #9821A5;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 15px;
+	border: solid #59ebfc;
+}
+	
+th {
+	color: #9821A5;
+	font-size: 20;
+}
+
+hr {
+	border-color: #59ebfc;
 }
