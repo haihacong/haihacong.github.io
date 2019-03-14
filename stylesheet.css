@@ -1,6 +1,6 @@
 /* The Waldorf School of Garden City
 	     File Owner: Jake Vu
-	     Last Edit: February 22, 2019 */
+	     Last Edit: March 13, 2019 */
 
 @font-face { font-family: Bangers; src: url('fonts/Bangers.ttf'); }
 @font-face { font-family: Neucha; src: url('fonts/Neucha.ttf'); }
@@ -81,6 +81,10 @@ a:visited {
 .main h1 a:link{
 	text-decoration:none;
 	color: red;
+}
+
+.cite a:link a:hover a:visited a:active {
+		color: white;
 }
 	
 h1,h2 {
@@ -164,10 +168,48 @@ th, td {
 }
 	
 th {
-	color: #9821A5;
+	color:#E5B48F;
 	font-size: 20;
 }
 
 hr {
 	border-color: #59ebfc;
 }
+	
+.gallery {
+	margin: 20px 20px 20px 20px;
+	width: 20%;
+}
+
+.inverted{
+	margin: 20px 20px 20px 20px;
+	width: 20%;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	}
+
+.welcome {
+	width: 60%;
+	margin-left: 25px;
+	-webkit-animation: welcome 3s infinite alternate;
+	animation:welcome 3s infinite alternate;
+}
+
+@-webkit-keyframes welcome {
+  from {
+	opacity: 0;
+	}
+  to {
+	opacity: 1;
+	}
+} 
+
+@keyframes welcome {
+	  from {
+	opacity: 0;
+	}
+  to {
+	opacity: 1;
+	}
+} 
+
